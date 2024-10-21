@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Black", sans-serif;
+}
+html {
+    width: 100vw;
+    height:100vh;
+}
+body{
+    background-color: #81ecec;
+    background: linear-gradient(rgba(15, 15, 15, 0.8),rgba(12, 11, 15, 0.658)),url(./imgem-dogs.avif);
+    background-size: cover;  
+}
+h1{
+    margin-top: 20px;
+    color:#f0c508;
+}
+.input{
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;   
+}
+
+td{
+    text-transform: uppercase;
+    
+}
+tr{
+    background-color: none;
+}
+.btn-danger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+}
+
+
+
+@media(max-width:767px){
+    .container{
+        max-width: 100%;
+    }
+    .table{
+        max-width: 100%;
+    }
+    tr{
+        font-size: 10px;
+    }
+    .input{
+        font-size: 10px;
+    }
+}
+
+
+  
