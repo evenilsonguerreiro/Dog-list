@@ -29,11 +29,11 @@ function adicionarLinhaTabela(dados) {
         const valorFormatado = dados.valor !== undefined ? dados.valor.toFixed(2) : '0.00';
         
         newRow.innerHTML = `
-            <td>${dados.endereco}</td>
-            <td>${dados.numero}</td>
-            <td>${formatarDataBrasileira(dados.data)}</td>
-            <td>${valorFormatado}</td>
-            <td><button class="btn btn-danger" onclick="deletar(this, '${dados.endereco}', '${dados.numero}', ${dados.valor})">Excluir</button></td>
+            <td class="bg-dark text-white">${dados.endereco}</td>
+            <td class="bg-dark text-white">${dados.numero}</td>
+            <td class="bg-dark text-white">${formatarDataBrasileira(dados.data)}</td>
+            <td class="bg-dark text-white">${valorFormatado}</td>
+            <td class="bg-dark text-white"><button class="btn btn-danger" onclick="deletar(this, '${dados.endereco}', '${dados.numero}', ${dados.valor})">Excluir</button></td>
         `;
         tbody.appendChild(newRow);
     }

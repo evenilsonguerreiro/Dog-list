@@ -27,9 +27,7 @@ td{
     text-transform: uppercase;
     
 }
-tr{
-    background-color: none;
-}
+
 .btn-danger {
     display: flex;
     justify-content: center;
