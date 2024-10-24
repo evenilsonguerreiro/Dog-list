@@ -9,18 +9,17 @@ html {
     
 }
 body{
-    background-color: #1827279a;
+    background-color: #a29bfe;
    
 }
 
 h1{
     margin-top: 20px;
-    color:#f0c508;
+    color:#2d3436;
 }
 .input{
     text-transform: uppercase;
-    background-color: transparent;
-    color: white;   
+    background-color: transparent  
 }
 
 td{
