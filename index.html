@@ -29,24 +29,26 @@
             <input class="form-control input mb-2" type="number" id="input-número" placeholder="Número" required>
             <input class="form-control input mb-2" type="date" id="input-date" placeholder="Data" required>
             <input class="form-control input mb-2" type="number" id="input-valor" placeholder="Valor da corrida $R" required>
-            <button class="btn btn-success" type="submit">Adicionar</button>
+            <button class="btn btn-success add" type="submit">Adicionar</button>
           </form id='form'>
-          <table class="table mt-3">
-            <thead>
-              <tr>
-                <th class="bg-dark text-white">ENDEREÇO</th>
-                <th class="bg-dark text-white">NÚMERO</th>
-                <th class="bg-dark text-white">DATA</th>
-                <th class="bg-dark text-white">VALOR</th>
-                <th class="bg-dark text-white">EXCLUIR</th>
-              </tr>
-            </thead>
-            <tbody id="t-body">
-              <!-- Linhas adicionadas aqui -->
-            </tbody>
-          </table>
         </div>
       </header>
+      <div class="container">
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th class="bg-dark text-white">ENDEREÇO</th>
+              <th class="bg-dark text-white">NÚMERO</th>
+              <th class="bg-dark text-white">DATA</th>
+              <th class="bg-dark text-white">VALOR</th>
+              <th class="bg-dark text-white">EXCLUIR</th>
+            </tr>
+          </thead>
+          <tbody id="t-body">
+            <!-- Linhas adicionadas aqui -->
+          </tbody>
+        </table>
+      </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
