@@ -65,6 +65,14 @@ td{
         width: 100%;
         margin-top: 10px;
     }
+    .btn-danger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+    }
    
     
 }
